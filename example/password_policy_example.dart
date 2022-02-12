@@ -30,13 +30,14 @@ void main() {
 
   print("Password score: ${passwordCheck.score}");
   print("Password strength: ${passwordCheck.strength.name}");
-  if (passwordCheck.isValid)
+  if (passwordCheck.isValid) {
     print("Congrats! Your password is secure!");
-  else {
+  } else {
     print("You password does not apply to our PassordPolicy, please review the"
         "following rules: ");
-    passwordCheck.notRespectedMandatoryRules
-        .forEach((rule) => print(rule.name));
+    for (ValidationRule rule in passwordCheck.notRespectedMandatoryRules) {
+      print(rule.name);
+    }
   }
 }
 

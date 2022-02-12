@@ -20,7 +20,7 @@ Depending of your rules and your password the package will give you a password `
 * The `score` depends on how your password fits to your rules, it will be between `0.0` and `1.0`
   (`1.0` for a password that fits all of your rules).
 
-* The `strength` will be either WEAK, INTERMEDIATE, GOOD, STRONG or UNBREAKABLE. The `strength` fits the
+* The `strength` will be either `weak`, `intermediate`, `good`, `strong` or `unbreakable`. The `strength` fits the
   `score` of your password.
 
 The password policy can be adjusted to ask for a `minimumScore` to validate the password, if the `score` is not
