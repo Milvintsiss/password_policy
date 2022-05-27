@@ -1,6 +1,6 @@
 name: password_policy
-description: Dart package that help restrict passwords to a strong policy.
-version: 1.1.0
+description: Dart package that help restrict password to a strong policy.
+version: 1.2.0
 homepage: https://github.com/Milvintsiss/password_policy
 repository: https://github.com/Milvintsiss/password_policy
 issue_tracker: https://github.com/Milvintsiss/password_policy/issues
